@@ -3,7 +3,7 @@ package com.hjq.demo.bean;
 public class PhoneDto {
     private String name;        //联系人姓名
     private String telPhone;    //电话号码
-
+    private String email;  //邮箱
 
     public String getName() {
         return name;
@@ -22,6 +22,14 @@ public class PhoneDto {
     }
 
     public PhoneDto() {
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
     }
 
     public PhoneDto(String name, String telPhone) {
